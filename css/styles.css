@@ -780,18 +780,21 @@ input.eq-switch:checked:hover{
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .mp4-container {
   position: relative;
   display: flex;
-  /* width: 100%; */
   justify-content: center;
-  max-height: 40vh;
+  align-items: flex-start;
 }
 
 .mp4-video {
-  /* max-width: 100%; */
+  max-width: 100%;
+  max-height: 40vh;
   border: solid #F5F0F6 2px;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
